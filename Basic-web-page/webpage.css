@@ -1,0 +1,219 @@
+body{
+    margin :0;
+    font-family: Arial,sans-serif;
+    scroll-behavior:smooth;
+}
+
+.navbar{
+
+    height: 70px;
+
+    background-color: #111827;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 70px;
+    font-size: 20px;
+    width: 100%;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar a:hover{
+   
+    color: #38bdf8;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap : 10px;
+    
+}
+#bar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width : 400px;
+    height : 20px;
+    border-radius: 7px;
+    margin-left : 100px;
+    
+    padding-left : 20px;
+    
+}
+
+#btn{
+    width : 100px;
+    height : 30px;
+    padding : center;
+    border-radius : 10px;
+    color :white;
+    background-color:#2563eb;
+    margin-right : 100px;
+}
+
+#btn:hover{
+    background-color: #0ea5e9;
+    transform: scale(1.05);
+    transition-duration: 0.9s;
+}
+
+#image{
+    width:5%;
+    height :60%;
+    
+}
+
+/* HOME */
+.home{
+    color:white;
+    background-color: #172554;
+    height : 400px;
+    margin-top:0px;
+    padding-top:20px;
+    
+}
+
+#heading{
+    margin-left:30px;
+    margin-top:0px;
+    color: #38bdf8;
+}
+
+#description{
+    margin-left : 60px;
+}
+#heading-two{
+    margin-left:30px;
+    color: #facc15;
+}
+
+#extra-information{
+    margin-left : 60px;
+    margin-top:3px;
+}
+
+button{
+    border-radius: 7px;
+    height :30px;
+    width: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:40px;
+    margin-top:10px;
+
+    background-color: #2563eb;
+    border: none;
+}
+
+button:hover{
+    color:red;
+    background-color: #0ea5e9;
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+
+/* ABOUT */
+.about {
+    height : 20vh;
+    width : 100wh;
+    background-color : #312e81;
+    color : white;
+    padding-top:20px;
+
+}
+.about h1{
+    margin-left : 20px;
+    margin-top: 0px;
+    color: #c4b5fd;
+}
+.about p{
+    margin-left : 40px;
+    
+}
+
+
+/* COURSES */
+.courses{
+    height:20vh;
+    width:10wh;
+    background-color : #164e63;
+    color:white;
+   padding-top:20px;
+}
+
+.courses h1{
+    margin-left : 20px;
+    margin-top:0;
+    color:#67e8f9;
+}
+.courses p{
+    margin-left : 40px;
+}
+
+.courses button{
+    border-radius: 7px;
+    height :30px;
+    width: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:40px;
+    margin-top:10px
+    
+}
+
+.courses button:hover{
+    color:#0ea5e9ed;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* CONTACT */
+
+.contact{
+    background-color : #1f2937;
+    color:white;
+    height:200px;
+    padding-top:20px;
+    margin-top:0px;
+}
+
+.contact h1{
+    margin-left : 20px;
+    margin-top:0px;
+    color:#fbbf24;
+}
+.contact p{
+    margin-left : 40px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color : #030712;
+    height : 50px;
+    display:flex;
+    flex-direction:center;
+    align-items:center;
+    margin-top:0px;
+    
+}
+.footer p{
+    color:#94a3b8;
+   
+}
