@@ -1,0 +1,75 @@
+/* instagram css */
+
+
+
+.logo {
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(
+        45deg,
+        #feda75,
+        #fa7e1e,
+        #d62976,
+        #962fbf,
+        #4f5bd5
+    );
+    margin-top: 70px;
+    margin-left : 400px;
+    border-radius: 60px;
+
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo::after {
+    content: "";
+    width: 70%;
+    height: 70%;
+    border: 25px solid white;
+    border-radius: 70px;
+
+    position: absolute;
+
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 25px solid white;
+
+    border-radius: 50%;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.smallcircle{
+    position:absolute;
+    width : 10%;
+    height : 10%;
+    border-radius : 50%;
+
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    position: absolute;
+
+    top: 150px;
+    right: 220px;
+    left : 400px;
+}
+
